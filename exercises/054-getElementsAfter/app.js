@@ -1,7 +1,9 @@
 function getElementsAfter(array, n) {
   // your code here
-  let newArr = array.slice(n+1, array.length)
-  return newArr
+  return array.slice(n+1, array.length)
+
+  
+  
 }
 
 let output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 

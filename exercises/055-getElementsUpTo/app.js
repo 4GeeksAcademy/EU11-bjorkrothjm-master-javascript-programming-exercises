@@ -1,7 +1,6 @@
 function getElementsUpTo(array, n) {
   // your code here
-  return array.splice(0, n)
-
+  return array.slice(0, n)
   
 }
 

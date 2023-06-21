@@ -1,7 +1,7 @@
 function getAllElementsButLast(array) {
     // your code here
-    let newArr = array.slice(0, array.length-1)
-    return newArr
+    return array.slice(0, array.length-1)
+
 }
 
 let input = [1, 2, 3, 4];

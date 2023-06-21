@@ -1,10 +1,10 @@
 function removeFromBackOfNew(arr) {
   // your code here
-  arr.pop()
-  return arr
-
-  
+  //return arr.pop() // would return last item (not array)
+  const newArr = arr.slice(0, arr.length-1)
+  return newArr
 }
+
 let arr = [1, 2, 3];
 let output = removeFromBackOfNew(arr);
 console.log(output); // --> [1, 2]

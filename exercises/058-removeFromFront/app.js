@@ -1,8 +1,8 @@
 function removeFromFront(arr) {
     // your code here
+    // return arr.shift() -> would return the first item
     arr.shift()
     return arr
-
 
     
 }

@@ -1,7 +1,6 @@
 function getAllElementsButFirst(array) {
   // your code here
-  let newArr = array.slice(1, array.length)
-  return newArr
+  return(array.slice(1, array.length))
   
 }
 
