@@ -1,6 +1,8 @@
 function addToBackOfNew(arr, element) {
     // Write your function here
-    
+    const newArr = arr.slice(0, arr.length)
+    newArr.push(element)
+    return newArr    
 }
 
 let input = [1, 2];

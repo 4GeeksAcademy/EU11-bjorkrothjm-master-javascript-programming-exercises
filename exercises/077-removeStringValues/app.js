@@ -5,6 +5,12 @@ let obj = {
 
 function removeStringValues(obj) {
     // your code here
+
+    // typeof() Solution
+    for (pair of Object.entries(obj)){
+        typeof(pair[1]) === "string" ? delete obj[pair[0]] : 0
+    }
+    
     
 }
 
