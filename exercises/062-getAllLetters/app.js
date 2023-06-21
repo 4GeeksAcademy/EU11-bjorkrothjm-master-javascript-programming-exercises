@@ -1,6 +1,7 @@
 function getAllLetters(str) {
     // your code here
-    return str.length === 0 ? [] : str.split("");
+    return str.split("");
+    
 }
 
 let output = getAllLetters('Radagast');
